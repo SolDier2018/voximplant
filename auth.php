@@ -3,8 +3,8 @@
 * VoxImplant HTTP API access info
 */
 define("API_URL", "https://api.voximplant.com/platform_api/");
-define("API_KEY", "your_voximplant_api_key");
-define("ACCOUNT_NAME", "your_voximplant_account_name");
+define("API_KEY", "a4bfcd0d-5592-48dd-946e-e52bf0b38b07");
+define("ACCOUNT_NAME", "soldier");
 /**
 * Some default user password
 */
