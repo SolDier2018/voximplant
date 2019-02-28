@@ -48,8 +48,8 @@ function httpRequest($url,$params = array()) {
 function createUser($displayName = "Participant") {
 	$username = generateUsername(10);
 	$url = API_URL . "AddUser/?" . 
-			"account_name=" . "soldier" .
-			"&api_key=" . "a4bfcd0d-5592-48dd-946e-e52bf0b38b07" .
+			"account_name=" . "ACCOUNT_NAME" .
+			"&api_key=" . "API_KEY" .
 			"&user_name=" . $username .
 			"&user_display_name=" . $displayName .  
 			"&user_password=" . PWD;
@@ -64,8 +64,8 @@ function createUser($displayName = "Participant") {
 function bindUser($username) {
 
 	$url = API_URL . "BindUser/?" . 
-			"account_name=" . "soldier" .
-			"&api_key=" . "a4bfcd0d-5592-48dd-946e-e52bf0b38b07" .
+			"account_name=" . "ACCOUNT_NAME" .
+			"&api_key=" . "API_KEY" .
 			"&user_name=" . $username .
 			"&application_name=" . APP_NAME;
 
